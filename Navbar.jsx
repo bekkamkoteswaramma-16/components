@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom' // ✅ NavLink for active
 
 const navLinks = [ // ✅ Dynamic Links using .map()
   {name: 'Home', path: '/'},
-  {name: 'About', path: '/about'},
+  {name: 'About', path: '/about'}, 
   {name: 'Dashboard', path: '/dashboard'},
   {name: 'Login', path: '/login'}
 ]
